@@ -1,0 +1,468 @@
+Creating matrix of size 4096, 4096
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 4096
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 262144
+Launching Coruscant...
+num_tiles_per_row : 4096
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 262144
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 4096 N: 8 K: 4096 Pruning Rate: 50 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.055 	 Performance/TFLOPs: 4.87 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.065 	 Performance/TFLOPs: 4.14 	 TotalError: 3356.59
+Coruscant  	 -> 		 Time/ms: 0.083 	 Performance/TFLOPs: 3.23 	 TotalError: 44.90
+Coruscant_STC 	 -> 		 Time/ms: 0.041 	 Performance/TFLOPs: 6.48 	 TotalError: -1.00
+
+
+Creating matrix of size 4096, 4096
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 4096
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 262144
+Launching Coruscant...
+num_tiles_per_row : 4096
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 262144
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 4096 N: 8 K: 4096 Pruning Rate: 30 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.055 	 Performance/TFLOPs: 4.85 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.098 	 Performance/TFLOPs: 2.74 	 TotalError: 161173.21
+Coruscant  	 -> 		 Time/ms: 0.101 	 Performance/TFLOPs: 2.67 	 TotalError: 62.06
+Coruscant_STC 	 -> 		 Time/ms: 0.050 	 Performance/TFLOPs: 5.41 	 TotalError: -1.00
+
+
+Creating matrix of size 4096, 4096
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 4096
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 262144
+Launching Coruscant...
+num_tiles_per_row : 4096
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 262144
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 4096 N: 8 K: 4096 Pruning Rate: 70 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.055 	 Performance/TFLOPs: 4.88 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.041 	 Performance/TFLOPs: 6.49 	 TotalError: 29.50
+Coruscant  	 -> 		 Time/ms: 0.064 	 Performance/TFLOPs: 4.18 	 TotalError: 29.50
+Coruscant_STC 	 -> 		 Time/ms: 0.032 	 Performance/TFLOPs: 8.26 	 TotalError: -1.00
+
+
+Creating matrix of size 4096, 11008
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 11008
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 704512
+Launching Coruscant...
+num_tiles_per_row : 11008
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 704512
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 4096 N: 8 K: 11008 Pruning Rate: 30 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.132 	 Performance/TFLOPs: 5.47 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.232 	 Performance/TFLOPs: 3.11 	 TotalError: 409436.89
+Coruscant  	 -> 		 Time/ms: 0.251 	 Performance/TFLOPs: 2.88 	 TotalError: 246457.22
+Coruscant_STC 	 -> 		 Time/ms: 0.115 	 Performance/TFLOPs: 6.25 	 TotalError: -1.00
+
+
+Creating matrix of size 4096, 11008
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 11008
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 704512
+Launching Coruscant...
+num_tiles_per_row : 11008
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 704512
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 4096 N: 8 K: 11008 Pruning Rate: 50 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.132 	 Performance/TFLOPs: 5.48 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.142 	 Performance/TFLOPs: 5.07 	 TotalError: 7544.33
+Coruscant  	 -> 		 Time/ms: 0.206 	 Performance/TFLOPs: 3.50 	 TotalError: 211530.41
+Coruscant_STC 	 -> 		 Time/ms: 0.092 	 Performance/TFLOPs: 7.81 	 TotalError: -1.00
+
+
+Creating matrix of size 4096, 11008
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 11008
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 704512
+Launching Coruscant...
+num_tiles_per_row : 11008
+num_tiles_per_col : 64
+Tile Count within bmp transformation: 704512
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 4096 N: 8 K: 11008 Pruning Rate: 70 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.132 	 Performance/TFLOPs: 5.47 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.087 	 Performance/TFLOPs: 8.27 	 TotalError: 68.92
+Coruscant  	 -> 		 Time/ms: 0.156 	 Performance/TFLOPs: 4.64 	 TotalError: 166469.34
+Coruscant_STC 	 -> 		 Time/ms: 0.071 	 Performance/TFLOPs: 10.15 	 TotalError: -1.00
+
+
+Creating matrix of size 5120, 5120
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 5120
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 409600
+Launching Coruscant...
+num_tiles_per_row : 5120
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 409600
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 5120 N: 8 K: 5120 Pruning Rate: 30 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.079 	 Performance/TFLOPs: 5.32 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.157 	 Performance/TFLOPs: 2.67 	 TotalError: 251796.86
+Coruscant  	 -> 		 Time/ms: 0.176 	 Performance/TFLOPs: 2.39 	 TotalError: 92.75
+Coruscant_STC 	 -> 		 Time/ms: 0.076 	 Performance/TFLOPs: 5.51 	 TotalError: -1.00
+Creating matrix of size 5120, 5120
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 5120
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 409600
+Launching Coruscant...
+num_tiles_per_row : 5120
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 409600
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 5120 N: 8 K: 5120 Pruning Rate: 50 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.079 	 Performance/TFLOPs: 5.34 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.099 	 Performance/TFLOPs: 4.26 	 TotalError: 4941.94
+Coruscant  	 -> 		 Time/ms: 0.144 	 Performance/TFLOPs: 2.91 	 TotalError: 72.00
+Coruscant_STC 	 -> 		 Time/ms: 0.063 	 Performance/TFLOPs: 6.66 	 TotalError: -1.00
+Creating matrix of size 5120, 5120
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 5120
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 409600
+Launching Coruscant...
+num_tiles_per_row : 5120
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 409600
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 5120 N: 8 K: 5120 Pruning Rate: 70 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.079 	 Performance/TFLOPs: 5.33 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.070 	 Performance/TFLOPs: 5.98 	 TotalError: 43.81
+Coruscant  	 -> 		 Time/ms: 0.110 	 Performance/TFLOPs: 3.83 	 TotalError: 43.81
+Coruscant_STC 	 -> 		 Time/ms: 0.050 	 Performance/TFLOPs: 8.33 	 TotalError: -1.00
+Creating matrix of size 5120, 13824
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 13824
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 1105920
+Launching Coruscant...
+num_tiles_per_row : 13824
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 1105920
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 5120 N: 8 K: 13824 Pruning Rate: 30 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.216 	 Performance/TFLOPs: 5.24 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.381 	 Performance/TFLOPs: 2.97 	 TotalError: 644147.37
+Coruscant  	 -> 		 Time/ms: 0.449 	 Performance/TFLOPs: 2.52 	 TotalError: 305.00
+Coruscant_STC 	 -> 		 Time/ms: 0.186 	 Performance/TFLOPs: 6.10 	 TotalError: -1.00
+Creating matrix of size 5120, 13824
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 13824
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 1105920
+Launching Coruscant...
+num_tiles_per_row : 13824
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 1105920
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 5120 N: 8 K: 13824 Pruning Rate: 50 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.217 	 Performance/TFLOPs: 5.22 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.231 	 Performance/TFLOPs: 4.90 	 TotalError: 11432.62
+Coruscant  	 -> 		 Time/ms: 0.368 	 Performance/TFLOPs: 3.08 	 TotalError: 235.44
+Coruscant_STC 	 -> 		 Time/ms: 0.151 	 Performance/TFLOPs: 7.49 	 TotalError: -1.00
+Creating matrix of size 5120, 13824
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 13824
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 1105920
+Launching Coruscant...
+num_tiles_per_row : 13824
+num_tiles_per_col : 80
+Tile Count within bmp transformation: 1105920
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 5120 N: 8 K: 13824 Pruning Rate: 70 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.217 	 Performance/TFLOPs: 5.23 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.143 	 Performance/TFLOPs: 7.94 	 TotalError: 138.42
+Coruscant  	 -> 		 Time/ms: 0.277 	 Performance/TFLOPs: 4.10 	 TotalError: 138.42
+Coruscant_STC 	 -> 		 Time/ms: 0.117 	 Performance/TFLOPs: 9.66 	 TotalError: -1.00
+Creating matrix of size 8192, 8192
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 8192
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 1048576
+Launching Coruscant...
+num_tiles_per_row : 8192
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 1048576
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 8192 N: 8 K: 8192 Pruning Rate: 30 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.195 	 Performance/TFLOPs: 5.51 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.340 	 Performance/TFLOPs: 3.15 	 TotalError: 620780.04
+Coruscant  	 -> 		 Time/ms: 0.362 	 Performance/TFLOPs: 2.96 	 TotalError: 246.36
+Coruscant_STC 	 -> 		 Time/ms: 0.168 	 Performance/TFLOPs: 6.39 	 TotalError: -1.00
+Creating matrix of size 8192, 8192
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 8192
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 1048576
+Launching Coruscant...
+num_tiles_per_row : 8192
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 1048576
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 8192 N: 8 K: 8192 Pruning Rate: 50 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.195 	 Performance/TFLOPs: 5.52 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.208 	 Performance/TFLOPs: 5.17 	 TotalError: 11690.17
+Coruscant  	 -> 		 Time/ms: 0.297 	 Performance/TFLOPs: 3.61 	 TotalError: 170.98
+Coruscant_STC 	 -> 		 Time/ms: 0.135 	 Performance/TFLOPs: 7.97 	 TotalError: -1.00
+Creating matrix of size 8192, 8192
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 8192
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 1048576
+Launching Coruscant...
+num_tiles_per_row : 8192
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 1048576
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 8192 N: 8 K: 8192 Pruning Rate: 70 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.194 	 Performance/TFLOPs: 5.53 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.128 	 Performance/TFLOPs: 8.38 	 TotalError: 109.15
+Coruscant  	 -> 		 Time/ms: 0.225 	 Performance/TFLOPs: 4.78 	 TotalError: 109.15
+Coruscant_STC 	 -> 		 Time/ms: 0.103 	 Performance/TFLOPs: 10.44 	 TotalError: -1.00
+Creating matrix of size 8192, 28672
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 28672
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 3670016
+Launching Coruscant...
+num_tiles_per_row : 28672
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 3670016
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 8192 N: 8 K: 28672 Pruning Rate: 30 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.649 	 Performance/TFLOPs: 5.79 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 1.127 	 Performance/TFLOPs: 3.33 	 TotalError: 2074747.57
+Coruscant  	 -> 		 Time/ms: 1.227 	 Performance/TFLOPs: 3.06 	 TotalError: 1177.88
+Coruscant_STC 	 -> 		 Time/ms: 0.554 	 Performance/TFLOPs: 6.78 	 TotalError: -1.00
+Creating matrix of size 8192, 28672
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 28672
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 3670016
+Launching Coruscant...
+num_tiles_per_row : 28672
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 3670016
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 8192 N: 8 K: 28672 Pruning Rate: 50 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.649 	 Performance/TFLOPs: 5.79 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.669 	 Performance/TFLOPs: 5.62 	 TotalError: 35146.94
+Coruscant  	 -> 		 Time/ms: 1.002 	 Performance/TFLOPs: 3.75 	 TotalError: 826.69
+Coruscant_STC 	 -> 		 Time/ms: 0.437 	 Performance/TFLOPs: 8.60 	 TotalError: -1.00
+Creating matrix of size 8192, 28672
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 28672
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 3670016
+Launching Coruscant...
+num_tiles_per_row : 28672
+num_tiles_per_col : 128
+Tile Count within bmp transformation: 3670016
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 8192 N: 8 K: 28672 Pruning Rate: 70 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.649 	 Performance/TFLOPs: 5.79 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.398 	 Performance/TFLOPs: 9.45 	 TotalError: 506.78
+Coruscant  	 -> 		 Time/ms: 0.753 	 Performance/TFLOPs: 4.99 	 TotalError: 506.78
+Coruscant_STC 	 -> 		 Time/ms: 0.328 	 Performance/TFLOPs: 11.45 	 TotalError: -1.00
+Creating matrix of size 7168, 7168
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 7168
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 802816
+Launching Coruscant...
+num_tiles_per_row : 7168
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 802816
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 7168 N: 8 K: 7168 Pruning Rate: 30 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.149 	 Performance/TFLOPs: 5.52 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.283 	 Performance/TFLOPs: 2.90 	 TotalError: 476453.40
+Coruscant  	 -> 		 Time/ms: 0.316 	 Performance/TFLOPs: 2.60 	 TotalError: 183.77
+Coruscant_STC 	 -> 		 Time/ms: 0.136 	 Performance/TFLOPs: 6.02 	 TotalError: -1.00
+Creating matrix of size 7168, 7168
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 7168
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 802816
+Launching Coruscant...
+num_tiles_per_row : 7168
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 802816
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 7168 N: 8 K: 7168 Pruning Rate: 50 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.149 	 Performance/TFLOPs: 5.52 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.172 	 Performance/TFLOPs: 4.78 	 TotalError: 9161.08
+Coruscant  	 -> 		 Time/ms: 0.259 	 Performance/TFLOPs: 3.17 	 TotalError: 132.09
+Coruscant_STC 	 -> 		 Time/ms: 0.111 	 Performance/TFLOPs: 7.39 	 TotalError: -1.00
+Creating matrix of size 7168, 7168
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 7168
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 802816
+Launching Coruscant...
+num_tiles_per_row : 7168
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 802816
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 7168 N: 8 K: 7168 Pruning Rate: 70 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.149 	 Performance/TFLOPs: 5.53 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.108 	 Performance/TFLOPs: 7.61 	 TotalError: 83.70
+Coruscant  	 -> 		 Time/ms: 0.195 	 Performance/TFLOPs: 4.21 	 TotalError: 83.70
+Coruscant_STC 	 -> 		 Time/ms: 0.087 	 Performance/TFLOPs: 9.50 	 TotalError: -1.00
+Creating matrix of size 7168, 28672
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 28672
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 3211264
+Launching Coruscant...
+num_tiles_per_row : 28672
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 3211264
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 7168 N: 8 K: 28672 Pruning Rate: 30 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.569 	 Performance/TFLOPs: 5.78 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 1.055 	 Performance/TFLOPs: 3.12 	 TotalError: 1836866.00
+Coruscant  	 -> 		 Time/ms: 1.070 	 Performance/TFLOPs: 3.07 	 TotalError: 1050.38
+Coruscant_STC 	 -> 		 Time/ms: 0.507 	 Performance/TFLOPs: 6.48 	 TotalError: -1.00
+Creating matrix of size 7168, 28672
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 28672
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 3211264
+Launching Coruscant...
+num_tiles_per_row : 28672
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 3211264
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 7168 N: 8 K: 28672 Pruning Rate: 50 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.569 	 Performance/TFLOPs: 5.78 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.616 	 Performance/TFLOPs: 5.33 	 TotalError: 30130.69
+Coruscant  	 -> 		 Time/ms: 0.994 	 Performance/TFLOPs: 3.31 	 TotalError: 737.62
+Coruscant_STC 	 -> 		 Time/ms: 0.405 	 Performance/TFLOPs: 8.13 	 TotalError: -1.00
+Creating matrix of size 7168, 28672
+Launching CuBlas...
+cublas COMPLETE
+Launching Coruscant_STC...
+num_tiles_per_row : 28672
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 3211264
+Launching Coruscant...
+num_tiles_per_row : 28672
+num_tiles_per_col : 112
+Tile Count within bmp transformation: 3211264
+Launching Flash-LLM...
+******************************************Problem Size******************************************
+M: 7168 N: 8 K: 28672 Pruning Rate: 70 SplitK: 8
+******************************************Performance*******************************************
+CuBlas_TC  	 -> 		 Time/ms: 0.569 	 Performance/TFLOPs: 5.78 	 TotalError: -1.00
+FlashLLM   	 -> 		 Time/ms: 0.375 	 Performance/TFLOPs: 8.77 	 TotalError: 435.66
+Coruscant  	 -> 		 Time/ms: 0.744 	 Performance/TFLOPs: 4.42 	 TotalError: 435.66
+Coruscant_STC 	 -> 		 Time/ms: 0.309 	 Performance/TFLOPs: 10.63 	 TotalError: -1.00
