@@ -1,0 +1,936 @@
+GEMV Test Configuration:
+  M = 4096 (rows of A)
+  K = 4096 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.3
+  Sparsity ratio of w: 0.3
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.875037
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.0525728 ms
+Throughput (CUBLAS): 638.247 GFLOPS
+Average kernel time (CUDA): 0.02924 ms
+Throughput (warp CUDA): 1147.55 GFLOPS
+Average kernel time (SPVM column-major block): 0.03651 ms
+Throughput (SPVM column-major block): 643.333 GFLOPS
+Speedup vs dense (SPVM): 1.43996x
+SPVSPM (GLOBAL Read/Write):       0.48894 ms, 33.6272 GFLOPS, speedup vs Dense: 0.107524x, speedup vs SPVM: 0.0746717x
+SPVSPM V2 (SMEM Read/Write): 0.07053 ms, 233.116 GFLOPS, speedup vs Dense: 0.745396x, speedup vs SPVM: 0.517652x
+SPVSPM V3 (Merger, Ours):           0.03882 ms, 423.536 GFLOPS, speedup vs Dense: 1.35427x, speedup vs SPVM: 0.940495x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 4096 (rows of A)
+  K = 4096 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.5
+  Sparsity ratio of w: 0.5
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.625116
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.0526336 ms
+Throughput (CUBLAS): 637.51 GFLOPS
+Average kernel time (CUDA): 0.02926 ms
+Throughput (warp CUDA): 1146.77 GFLOPS
+Average kernel time (SPVM column-major block): 0.03017 ms
+Throughput (SPVM column-major block): 556.089 GFLOPS
+Speedup vs dense (SPVM): 1.74457x
+SPVSPM (GLOBAL Read/Write):       0.62934 ms, 13.3292 GFLOPS, speedup vs Dense: 0.083633x, speedup vs SPVM: 0.0479391x
+SPVSPM V2 (SMEM Read/Write): 0.0544 ms, 154.202 GFLOPS, speedup vs Dense: 0.967529x, speedup vs SPVM: 0.554596x
+SPVSPM V3 (Merger, Ours):           0.02967 ms, 282.73 GFLOPS, speedup vs Dense: 1.77397x, speedup vs SPVM: 1.01685x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 4096 (rows of A)
+  K = 4096 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.7
+  Sparsity ratio of w: 0.7
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.376267
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.0526845 ms
+Throughput (CUBLAS): 636.894 GFLOPS
+Average kernel time (CUDA): 0.02931 ms
+Throughput (warp CUDA): 1144.81 GFLOPS
+Average kernel time (SPVM column-major block): 0.02553 ms
+Throughput (SPVM column-major block): 394.294 GFLOPS
+Speedup vs dense (SPVM): 2.06363x
+SPVSPM (GLOBAL Read/Write):       0.58197 ms, 5.1891 GFLOPS, speedup vs Dense: 0.0905278x, speedup vs SPVM: 0.0438682x
+SPVSPM V2 (SMEM Read/Write): 0.03067 ms, 98.4643 GFLOPS, speedup vs Dense: 1.71779x, speedup vs SPVM: 0.83241x
+SPVSPM V3 (Merger, Ours):           0.01881 ms, 160.548 GFLOPS, speedup vs Dense: 2.80088x, speedup vs SPVM: 1.35726x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 4096 (rows of A)
+  K = 11008 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.3
+  Sparsity ratio of w: 0.3
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.875105
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.129833 ms
+Throughput (CUBLAS): 694.566 GFLOPS
+Average kernel time (CUDA): 0.07793 ms
+Throughput (warp CUDA): 1157.16 GFLOPS
+Average kernel time (SPVM column-major block): 0.09196 ms
+Throughput (SPVM column-major block): 686.432 GFLOPS
+Speedup vs dense (SPVM): 1.41184x
+SPVSPM (GLOBAL Read/Write):       1.94175 ms, 22.7563 GFLOPS, speedup vs Dense: 0.0668639x, speedup vs SPVM: 0.0473593x
+SPVSPM V2 (SMEM Read/Write): 0.12904 ms, 342.429 GFLOPS, speedup vs Dense: 1.00615x, speedup vs SPVM: 0.712647x
+SPVSPM V3 (Merger, Ours):           0.084 ms, 526.036 GFLOPS, speedup vs Dense: 1.54563x, speedup vs SPVM: 1.09476x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 4096 (rows of A)
+  K = 11008 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.5
+  Sparsity ratio of w: 0.5
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.625201
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.13012 ms
+Throughput (CUBLAS): 693.035 GFLOPS
+Average kernel time (CUDA): 0.07714 ms
+Throughput (warp CUDA): 1169.01 GFLOPS
+Average kernel time (SPVM column-major block): 0.07226 ms
+Throughput (SPVM column-major block): 623.98 GFLOPS
+Speedup vs dense (SPVM): 1.80072x
+SPVSPM (GLOBAL Read/Write):       2.22828 ms, 10.1174 GFLOPS, speedup vs Dense: 0.0583947x, speedup vs SPVM: 0.0324286x
+SPVSPM V2 (SMEM Read/Write): 0.0867 ms, 260.027 GFLOPS, speedup vs Dense: 1.5008x, speedup vs SPVM: 0.833449x
+SPVSPM V3 (Merger, Ours):           0.0481 ms, 468.698 GFLOPS, speedup vs Dense: 2.70519x, speedup vs SPVM: 1.50229x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 4096 (rows of A)
+  K = 11008 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.7
+  Sparsity ratio of w: 0.7
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.376154
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.130028 ms
+Throughput (CUBLAS): 693.527 GFLOPS
+Average kernel time (CUDA): 0.07691 ms
+Throughput (warp CUDA): 1172.51 GFLOPS
+Average kernel time (SPVM column-major block): 0.06089 ms
+Throughput (SPVM column-major block): 444.297 GFLOPS
+Speedup vs dense (SPVM): 2.13545x
+SPVSPM (GLOBAL Read/Write):       1.56907 ms, 5.17248 GFLOPS, speedup vs Dense: 0.0828692x, speedup vs SPVM: 0.0388064x
+SPVSPM V2 (SMEM Read/Write): 0.05887 ms, 137.863 GFLOPS, speedup vs Dense: 2.20872x, speedup vs SPVM: 1.03431x
+SPVSPM V3 (Merger, Ours):           0.03318 ms, 244.605 GFLOPS, speedup vs Dense: 3.91885x, speedup vs SPVM: 1.83514x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 5120 (rows of A)
+  K = 5120 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.3
+  Sparsity ratio of w: 0.3
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.875066
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.0780698 ms
+Throughput (CUBLAS): 671.563 GFLOPS
+Average kernel time (CUDA): 0.04024 ms
+Throughput (warp CUDA): 1302.9 GFLOPS
+Average kernel time (SPVM column-major block): 0.05773 ms
+Throughput (SPVM column-major block): 635.721 GFLOPS
+Speedup vs dense (SPVM): 1.35233x
+SPVSPM (GLOBAL Read/Write):       0.77408 ms, 33.1879 GFLOPS, speedup vs Dense: 0.100855x, speedup vs SPVM: 0.0745789x
+SPVSPM V2 (SMEM Read/Write): 0.07272 ms, 353.274 GFLOPS, speedup vs Dense: 1.07357x, speedup vs SPVM: 0.793867x
+SPVSPM V3 (Merger, Ours):           0.04353 ms, 590.17 GFLOPS, speedup vs Dense: 1.79347x, speedup vs SPVM: 1.32621x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 5120 (rows of A)
+  K = 5120 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.5
+  Sparsity ratio of w: 0.5
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.625013
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.0781107 ms
+Throughput (CUBLAS): 671.211 GFLOPS
+Average kernel time (CUDA): 0.04075 ms
+Throughput (warp CUDA): 1286.6 GFLOPS
+Average kernel time (SPVM column-major block): 0.04542 ms
+Throughput (SPVM column-major block): 577.155 GFLOPS
+Speedup vs dense (SPVM): 1.71974x
+SPVSPM (GLOBAL Read/Write):       0.60402 ms, 21.6999 GFLOPS, speedup vs Dense: 0.129318x, speedup vs SPVM: 0.0751962x
+SPVSPM V2 (SMEM Read/Write): 0.06026 ms, 217.511 GFLOPS, speedup vs Dense: 1.29623x, speedup vs SPVM: 0.753734x
+SPVSPM V3 (Merger, Ours):           0.03308 ms, 396.227 GFLOPS, speedup vs Dense: 2.36127x, speedup vs SPVM: 1.37304x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 5120 (rows of A)
+  K = 5120 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.7
+  Sparsity ratio of w: 0.7
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.376259
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.0779264 ms
+Throughput (CUBLAS): 672.799 GFLOPS
+Average kernel time (CUDA): 0.04074 ms
+Throughput (warp CUDA): 1286.91 GFLOPS
+Average kernel time (SPVM column-major block): 0.03824 ms
+Throughput (SPVM column-major block): 411.314 GFLOPS
+Speedup vs dense (SPVM): 2.03782x
+SPVSPM (GLOBAL Read/Write):       0.67192 ms, 7.02255 GFLOPS, speedup vs Dense: 0.115976x, speedup vs SPVM: 0.0569115x
+SPVSPM V2 (SMEM Read/Write): 0.03871 ms, 121.896 GFLOPS, speedup vs Dense: 2.01308x, speedup vs SPVM: 0.987858x
+SPVSPM V3 (Merger, Ours):           0.02158 ms, 218.656 GFLOPS, speedup vs Dense: 3.61105x, speedup vs SPVM: 1.77201x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 5120 (rows of A)
+  K = 13824 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.3
+  Sparsity ratio of w: 0.3
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.87492
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.193772 ms
+Throughput (CUBLAS): 730.54 GFLOPS
+Average kernel time (CUDA): 0.12527 ms
+Throughput (warp CUDA): 1130.02 GFLOPS
+Average kernel time (SPVM column-major block): 0.14238 ms
+Throughput (SPVM column-major block): 695.958 GFLOPS
+Speedup vs dense (SPVM): 1.36095x
+SPVSPM (GLOBAL Read/Write):       2.51507 ms, 27.5791 GFLOPS, speedup vs Dense: 0.0770442x, speedup vs SPVM: 0.0566108x
+SPVSPM V2 (SMEM Read/Write): 0.15893 ms, 436.439 GFLOPS, speedup vs Dense: 1.21923x, speedup vs SPVM: 0.895866x
+SPVSPM V3 (Merger, Ours):           0.10438 ms, 664.527 GFLOPS, speedup vs Dense: 1.8564x, speedup vs SPVM: 1.36405x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 5120 (rows of A)
+  K = 13824 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.5
+  Sparsity ratio of w: 0.5
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.624907
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.193822 ms
+Throughput (CUBLAS): 730.349 GFLOPS
+Average kernel time (CUDA): 0.12326 ms
+Throughput (warp CUDA): 1148.45 GFLOPS
+Average kernel time (SPVM column-major block): 0.11229 ms
+Throughput (SPVM column-major block): 630.322 GFLOPS
+Speedup vs dense (SPVM): 1.72609x
+SPVSPM (GLOBAL Read/Write):       2.8045 ms, 12.6188 GFLOPS, speedup vs Dense: 0.0691111x, speedup vs SPVM: 0.0400392x
+SPVSPM V2 (SMEM Read/Write): 0.11319 ms, 312.655 GFLOPS, speedup vs Dense: 1.71236x, speedup vs SPVM: 0.992049x
+SPVSPM V3 (Merger, Ours):           0.06517 ms, 543.033 GFLOPS, speedup vs Dense: 2.9741x, speedup vs SPVM: 1.72303x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 5120 (rows of A)
+  K = 13824 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.7
+  Sparsity ratio of w: 0.7
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.376106
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.193802 ms
+Throughput (CUBLAS): 730.424 GFLOPS
+Average kernel time (CUDA): 0.12491 ms
+Throughput (warp CUDA): 1133.28 GFLOPS
+Average kernel time (SPVM column-major block): 0.09776 ms
+Throughput (SPVM column-major block): 434.404 GFLOPS
+Speedup vs dense (SPVM): 1.98243x
+SPVSPM (GLOBAL Read/Write):       2.22947 ms, 5.71445 GFLOPS, speedup vs Dense: 0.0869275x, speedup vs SPVM: 0.043849x
+SPVSPM V2 (SMEM Read/Write): 0.07697 ms, 165.522 GFLOPS, speedup vs Dense: 2.51789x, speedup vs SPVM: 1.27011x
+SPVSPM V3 (Merger, Ours):           0.04165 ms, 305.887 GFLOPS, speedup vs Dense: 4.65311x, speedup vs SPVM: 2.34718x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 8192 (rows of A)
+  K = 8192 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.3
+  Sparsity ratio of w: 0.3
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.874969
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.195492 ms
+Throughput (CUBLAS): 686.564 GFLOPS
+Average kernel time (CUDA): 0.10123 ms
+Throughput (warp CUDA): 1325.87 GFLOPS
+Average kernel time (SPVM column-major block): 0.13382 ms
+Throughput (SPVM column-major block): 702.08 GFLOPS
+Speedup vs dense (SPVM): 1.46086x
+SPVSPM (GLOBAL Read/Write):       1.86261 ms, 35.3089 GFLOPS, speedup vs Dense: 0.104956x, speedup vs SPVM: 0.0718454x
+SPVSPM V2 (SMEM Read/Write): 0.22749 ms, 289.097 GFLOPS, speedup vs Dense: 0.859343x, speedup vs SPVM: 0.588246x
+SPVSPM V3 (Merger, Ours):           0.11947 ms, 550.487 GFLOPS, speedup vs Dense: 1.63633x, speedup vs SPVM: 1.12011x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 8192 (rows of A)
+  K = 8192 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.5
+  Sparsity ratio of w: 0.5
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.624934
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.19376 ms
+Throughput (CUBLAS): 692.701 GFLOPS
+Average kernel time (CUDA): 0.10446 ms
+Throughput (warp CUDA): 1284.87 GFLOPS
+Average kernel time (SPVM column-major block): 0.1048 ms
+Throughput (SPVM column-major block): 640.352 GFLOPS
+Speedup vs dense (SPVM): 1.84885x
+SPVSPM (GLOBAL Read/Write):       1.70978 ms, 19.625 GFLOPS, speedup vs Dense: 0.113325x, speedup vs SPVM: 0.0612944x
+SPVSPM V2 (SMEM Read/Write): 0.16575 ms, 202.44 GFLOPS, speedup vs Dense: 1.16899x, speedup vs SPVM: 0.632278x
+SPVSPM V3 (Merger, Ours):           0.08599 ms, 390.213 GFLOPS, speedup vs Dense: 2.25329x, speedup vs SPVM: 1.21875x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 8192 (rows of A)
+  K = 8192 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.7
+  Sparsity ratio of w: 0.7
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.376183
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.195942 ms
+Throughput (CUBLAS): 684.986 GFLOPS
+Average kernel time (CUDA): 0.10251 ms
+Throughput (warp CUDA): 1309.31 GFLOPS
+Average kernel time (SPVM column-major block): 0.08965 ms
+Throughput (SPVM column-major block): 449.139 GFLOPS
+Speedup vs dense (SPVM): 2.18564x
+SPVSPM (GLOBAL Read/Write):       1.79158 ms, 6.74243 GFLOPS, speedup vs Dense: 0.109368x, speedup vs SPVM: 0.0500396x
+SPVSPM V2 (SMEM Read/Write): 0.12089 ms, 99.9222 GFLOPS, speedup vs Dense: 1.62083x, speedup vs SPVM: 0.741583x
+SPVSPM V3 (Merger, Ours):           0.06303 ms, 191.648 GFLOPS, speedup vs Dense: 3.10872x, speedup vs SPVM: 1.42234x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 8192 (rows of A)
+  K = 28672 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.3
+  Sparsity ratio of w: 0.3
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.874964
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.637972 ms
+Throughput (CUBLAS): 736.336 GFLOPS
+Average kernel time (CUDA): 0.40135 ms
+Throughput (warp CUDA): 1170.45 GFLOPS
+Average kernel time (SPVM column-major block): 0.45248 ms
+Throughput (SPVM column-major block): 726.736 GFLOPS
+Speedup vs dense (SPVM): 1.40995x
+SPVSPM (GLOBAL Read/Write):       4.65638 ms, 49.434 GFLOPS, speedup vs Dense: 0.13701x, speedup vs SPVM: 0.0971742x
+SPVSPM V2 (SMEM Read/Write): 0.75522 ms, 304.79 GFLOPS, speedup vs Dense: 0.844751x, speedup vs SPVM: 0.599137x
+SPVSPM V3 (Merger, Ours):           0.38223 ms, 602.212 GFLOPS, speedup vs Dense: 1.66908x, speedup vs SPVM: 1.18379x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 8192 (rows of A)
+  K = 28672 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.5
+  Sparsity ratio of w: 0.5
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.624889
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.638874 ms
+Throughput (CUBLAS): 735.297 GFLOPS
+Average kernel time (CUDA): 0.3983 ms
+Throughput (warp CUDA): 1179.42 GFLOPS
+Average kernel time (SPVM column-major block): 0.35777 ms
+Throughput (SPVM column-major block): 656.514 GFLOPS
+Speedup vs dense (SPVM): 1.78571x
+SPVSPM (GLOBAL Read/Write):       5.08881 ms, 23.0782 GFLOPS, speedup vs Dense: 0.125545x, speedup vs SPVM: 0.0703052x
+SPVSPM V2 (SMEM Read/Write): 0.55104 ms, 213.125 GFLOPS, speedup vs Dense: 1.1594x, speedup vs SPVM: 0.649263x
+SPVSPM V3 (Merger, Ours):           0.2729 ms, 430.343 GFLOPS, speedup vs Dense: 2.34105x, speedup vs SPVM: 1.31099x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 8192 (rows of A)
+  K = 28672 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.7
+  Sparsity ratio of w: 0.7
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.376121
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.636928 ms
+Throughput (CUBLAS): 737.543 GFLOPS
+Average kernel time (CUDA): 0.4005 ms
+Throughput (warp CUDA): 1172.94 GFLOPS
+Average kernel time (SPVM column-major block): 0.30912 ms
+Throughput (SPVM column-major block): 455.903 GFLOPS
+Speedup vs dense (SPVM): 2.06046x
+SPVSPM (GLOBAL Read/Write):       4.30016 ms, 9.83186 GFLOPS, speedup vs Dense: 0.148117x, speedup vs SPVM: 0.0718857x
+SPVSPM V2 (SMEM Read/Write): 0.3706 ms, 114.081 GFLOPS, speedup vs Dense: 1.71864x, speedup vs SPVM: 0.834107x
+SPVSPM V3 (Merger, Ours):           0.19566 ms, 216.082 GFLOPS, speedup vs Dense: 3.25528x, speedup vs SPVM: 1.57988x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 7168 (rows of A)
+  K = 7168 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.3
+  Sparsity ratio of w: 0.3
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.874987
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.146412 ms
+Throughput (CUBLAS): 701.86 GFLOPS
+Average kernel time (CUDA): 0.07905 ms
+Throughput (warp CUDA): 1299.94 GFLOPS
+Average kernel time (SPVM column-major block): 0.10388 ms
+Throughput (SPVM column-major block): 692.456 GFLOPS
+Speedup vs dense (SPVM): 1.40943x
+SPVSPM (GLOBAL Read/Write):       1.23748 ms, 40.6896 GFLOPS, speedup vs Dense: 0.118314x, speedup vs SPVM: 0.0839448x
+SPVSPM V2 (SMEM Read/Write): 0.15822 ms, 318.244 GFLOPS, speedup vs Dense: 0.925367x, speedup vs SPVM: 0.656554x
+SPVSPM V3 (Merger, Ours):           0.08499 ms, 592.453 GFLOPS, speedup vs Dense: 1.72269x, speedup vs SPVM: 1.22226x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 7168 (rows of A)
+  K = 7168 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.5
+  Sparsity ratio of w: 0.5
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.62488
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.147855 ms
+Throughput (CUBLAS): 695.007 GFLOPS
+Average kernel time (CUDA): 0.07924 ms
+Throughput (warp CUDA): 1296.83 GFLOPS
+Average kernel time (SPVM column-major block): 0.0816 ms
+Throughput (SPVM column-major block): 629.66 GFLOPS
+Speedup vs dense (SPVM): 1.81195x
+SPVSPM (GLOBAL Read/Write):       1.2514 ms, 20.5291 GFLOPS, speedup vs Dense: 0.118152x, speedup vs SPVM: 0.065207x
+SPVSPM V2 (SMEM Read/Write): 0.10297 ms, 249.491 GFLOPS, speedup vs Dense: 1.43591x, speedup vs SPVM: 0.792464x
+SPVSPM V3 (Merger, Ours):           0.05557 ms, 462.302 GFLOPS, speedup vs Dense: 2.6607x, speedup vs SPVM: 1.46842x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 7168 (rows of A)
+  K = 7168 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.7
+  Sparsity ratio of w: 0.7
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.376207
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.146924 ms
+Throughput (CUBLAS): 699.415 GFLOPS
+Average kernel time (CUDA): 0.07892 ms
+Throughput (warp CUDA): 1302.08 GFLOPS
+Average kernel time (SPVM column-major block): 0.06909 ms
+Throughput (SPVM column-major block): 446.203 GFLOPS
+Speedup vs dense (SPVM): 2.12655x
+SPVSPM (GLOBAL Read/Write):       1.16824 ms, 7.91656 GFLOPS, speedup vs Dense: 0.125765x, speedup vs SPVM: 0.0591402x
+SPVSPM V2 (SMEM Read/Write): 0.08697 ms, 106.341 GFLOPS, speedup vs Dense: 1.68936x, speedup vs SPVM: 0.794412x
+SPVSPM V3 (Merger, Ours):           0.04391 ms, 210.623 GFLOPS, speedup vs Dense: 3.34602x, speedup vs SPVM: 1.57345x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 7168 (rows of A)
+  K = 28672 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.3
+  Sparsity ratio of w: 0.3
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.875004
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.561264 ms
+Throughput (CUBLAS): 732.35 GFLOPS
+Average kernel time (CUDA): 0.35569 ms
+Throughput (warp CUDA): 1155.62 GFLOPS
+Average kernel time (SPVM column-major block): 0.39776 ms
+Throughput (SPVM column-major block): 723.374 GFLOPS
+Speedup vs dense (SPVM): 1.41106x
+SPVSPM (GLOBAL Read/Write):       4.62838 ms, 43.5164 GFLOPS, speedup vs Dense: 0.121266x, speedup vs SPVM: 0.0859394x
+SPVSPM V2 (SMEM Read/Write): 0.52239 ms, 385.556 GFLOPS, speedup vs Dense: 1.07442x, speedup vs SPVM: 0.761423x
+SPVSPM V3 (Merger, Ours):           0.29052 ms, 693.276 GFLOPS, speedup vs Dense: 1.93193x, speedup vs SPVM: 1.36913x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 7168 (rows of A)
+  K = 28672 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.5
+  Sparsity ratio of w: 0.5
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.624949
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.561961 ms
+Throughput (CUBLAS): 731.442 GFLOPS
+Average kernel time (CUDA): 0.35688 ms
+Throughput (warp CUDA): 1151.76 GFLOPS
+Average kernel time (SPVM column-major block): 0.31994 ms
+Throughput (SPVM column-major block): 642.373 GFLOPS
+Speedup vs dense (SPVM): 1.75646x
+SPVSPM (GLOBAL Read/Write):       3.85225 ms, 26.6754 GFLOPS, speedup vs Dense: 0.145879x, speedup vs SPVM: 0.0830528x
+SPVSPM V2 (SMEM Read/Write): 0.33945 ms, 302.726 GFLOPS, speedup vs Dense: 1.6555x, speedup vs SPVM: 0.942525x
+SPVSPM V3 (Merger, Ours):           0.17194 ms, 597.653 GFLOPS, speedup vs Dense: 3.26835x, speedup vs SPVM: 1.86077x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+
+GEMV Test Configuration:
+  M = 7168 (rows of A)
+  K = 28672 (columns of A)
+  Computing: y = A * x
+  Sparsity ratio of x: 0.7
+  Sparsity ratio of w: 0.7
+
+Generating test data...
+Packing matrix (delta based)...
+Packing efficiency: 0.376122
+Warming up...
+Running benchmark (CUBLAS)...
+Running benchmark (GEMV Dense warp scalar)...
+Running benchmark (CUDA Cores - SPVM column-major block)...
+Running benchmark (SPVSPM Global)...
+Running benchmark (SPVSPM V3 - with merger)...
+Running benchmark (SPVSPM V2 - SMEM write/read)...
+Computing reference (CPU)...
+
+========================================
+PERFORMANCE RESULTS
+========================================
+Average kernel time (CUBLAS): 0.559051 ms
+Throughput (CUBLAS): 735.249 GFLOPS
+Average kernel time (CUDA): 0.35448 ms
+Throughput (warp CUDA): 1159.56 GFLOPS
+Average kernel time (SPVM column-major block): 0.26844 ms
+Throughput (SPVM column-major block): 459.367 GFLOPS
+Speedup vs dense (SPVM): 2.08259x
+SPVSPM (GLOBAL Read/Write):       4.29339 ms, 8.61645 GFLOPS, speedup vs Dense: 0.130212x, speedup vs SPVM: 0.062524x
+SPVSPM V2 (SMEM Read/Write): 0.23782 ms, 155.554 GFLOPS, speedup vs Dense: 2.35073x, speedup vs SPVM: 1.12875x
+SPVSPM V3 (Merger, Ours):           0.11946 ms, 309.675 GFLOPS, speedup vs Dense: 4.67982x, speedup vs SPVM: 2.24711x
+========================================
+
+========================================
+No CORRECTNESS CHECK
+========================================
+========================================
+

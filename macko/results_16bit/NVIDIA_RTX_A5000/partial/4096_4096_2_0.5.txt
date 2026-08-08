@@ -1,0 +1,26 @@
+Kernel id: 2
+M_rows, M_cols, density: 4096 4096 0.5
+Warmup reps / timing reps: 100/1000
+Seed: 47
+Flush: 1
+
+Cache size: 6291456
+Half
+Max diff: 0.00675011
+
+Kernel id: 2
+Bits per value: 16
+Last time (us): 62.464
+Max  time (us): 79.872
+Min  time (us): 60.416
+Mean time (us): 62.3575
+Mean kernel launch time (us): 7.42
+Dense Bandwidth best (Gbps): 555.661
+Dense Bandwidth mean (Gbps): 538.36
+Dense flops best (Gflops): 555.39
+Dense flops mean (Gflops): 538.097
+Sparse flops best (Gflops): 277.695
+Sparse flops mean (Gflops): 269.049
+Effective density: 0.625498 0.5
+
+Final results:	16	4096	4096	2	0.5	62	538	269

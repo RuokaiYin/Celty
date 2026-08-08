@@ -1,0 +1,216 @@
+
+============================================================
+Running DASP fp16 on 4096x4096 at density 30%
+Matrix: test/matrices/4096x4096_d30.mtx
+============================================================
+
+===test/matrices/4096x4096_d30.mtx===
+
+cusparse:  0.0931 ms, 108.1692 Gflop/s,  324.8596 GB/s,  432.9408 GB/s
+SpMV_X:    0.0515 ms, 195.3034 GFlop/s,  621.4853 GB/s,  818.2368 GB/s
+SpMV_X2:   0.0511 ms, 196.9118 GFlop/s,  621.4853 GB/s,  818.2368 GB/s
+
+
+============================================================
+Running DASP fp16 on 4096x4096 at density 50%
+Matrix: test/matrices/4096x4096_d50.mtx
+============================================================
+
+===test/matrices/4096x4096_d50.mtx===
+
+cusparse:  0.2185 ms,  76.7871 Gflop/s,  230.5113 GB/s,  307.2609 GB/s
+SpMV_X:    0.0832 ms, 201.6904 GFlop/s,  647.2082 GB/s,  849.8599 GB/s
+SpMV_X2:   0.0827 ms, 202.7507 GFlop/s,  647.2082 GB/s,  849.8599 GB/s
+
+
+============================================================
+Running DASP fp16 on 4096x4096 at density 70%
+Matrix: test/matrices/4096x4096_d70.mtx
+============================================================
+
+===test/matrices/4096x4096_d70.mtx===
+
+cusparse:  0.4174 ms,  56.2773 Gflop/s,  168.9103 GB/s,  225.1679 GB/s
+SpMV_X:    0.1151 ms, 204.0598 GFlop/s,  658.1606 GB/s,  863.2629 GB/s
+SpMV_X2:   0.1145 ms, 205.1739 GFlop/s,  658.1606 GB/s,  863.2629 GB/s
+
+
+============================================================
+Running DASP fp16 on 4096x11008 at density 30%
+Matrix: test/matrices/4096x11008_d30.mtx
+============================================================
+
+===test/matrices/4096x11008_d30.mtx===
+
+cusparse:  0.5288 ms,  51.1587 Gflop/s,  153.5641 GB/s,  204.6811 GB/s
+SpMV_X:    0.1279 ms, 211.5403 GFlop/s,  658.7904 GB/s,  871.4674 GB/s
+SpMV_X2:   0.1271 ms, 212.8502 GFlop/s,  658.7904 GB/s,  871.4674 GB/s
+
+
+============================================================
+Running DASP fp16 on 4096x11008 at density 50%
+Matrix: test/matrices/4096x11008_d50.mtx
+============================================================
+
+===test/matrices/4096x11008_d50.mtx===
+
+cusparse:  2.0711 ms,  21.7704 Gflop/s,   65.3337 GB/s,   87.0935 GB/s
+SpMV_X:    0.2093 ms, 215.4265 GFlop/s,  667.7143 GB/s,  884.7654 GB/s
+SpMV_X2:   0.2076 ms, 217.1571 GFlop/s,  667.7143 GB/s,  884.7654 GB/s
+
+
+============================================================
+Running DASP fp16 on 4096x11008 at density 70%
+Matrix: test/matrices/4096x11008_d70.mtx
+============================================================
+
+===test/matrices/4096x11008_d70.mtx===
+
+cusparse:  4.2075 ms,  15.0029 Gflop/s,   45.0197 GB/s,   60.0174 GB/s
+SpMV_X:    0.2903 ms, 217.4218 GFlop/s,  671.3255 GB/s,  890.3462 GB/s
+SpMV_X2:   0.2881 ms, 219.0971 GFlop/s,  671.3255 GB/s,  890.3462 GB/s
+
+
+============================================================
+Running DASP fp16 on 5120x5120 at density 30%
+Matrix: test/matrices/5120x5120_d30.mtx
+============================================================
+
+===test/matrices/5120x5120_d30.mtx===
+
+cusparse:  0.1613 ms,  97.5256 Gflop/s,  292.8309 GB/s,  390.2930 GB/s
+SpMV_X:    0.0800 ms, 196.6547 GFlop/s,  642.7638 GB/s,  840.2783 GB/s
+SpMV_X2:   0.0796 ms, 197.6432 GFlop/s,  642.7638 GB/s,  840.2783 GB/s
+
+
+============================================================
+Running DASP fp16 on 5120x5120 at density 50%
+Matrix: test/matrices/5120x5120_d50.mtx
+============================================================
+
+===test/matrices/5120x5120_d50.mtx===
+
+cusparse:  0.3985 ms,  65.7850 Gflop/s,  197.4578 GB/s,  263.2171 GB/s
+SpMV_X:    0.1262 ms, 207.7540 GFlop/s,  659.0842 GB/s,  867.9222 GB/s
+SpMV_X2:   0.1255 ms, 208.9196 GFlop/s,  659.0842 GB/s,  867.9222 GB/s
+
+
+============================================================
+Running DASP fp16 on 5120x5120 at density 70%
+Matrix: test/matrices/5120x5120_d70.mtx
+============================================================
+
+===test/matrices/5120x5120_d70.mtx===
+
+cusparse:  0.7827 ms,  46.8897 Gflop/s,  140.7213 GB/s,  187.5979 GB/s
+SpMV_X:    0.1728 ms, 212.3373 GFlop/s,  664.7087 GB/s,  878.3501 GB/s
+SpMV_X2:   0.1717 ms, 213.7010 GFlop/s,  664.7087 GB/s,  878.3501 GB/s
+
+
+============================================================
+Running DASP fp16 on 5120x13824 at density 30%
+Matrix: test/matrices/5120x13824_d30.mtx
+============================================================
+
+===test/matrices/5120x13824_d30.mtx===
+
+cusparse:  1.2901 ms,  32.9174 Gflop/s,   98.7974 GB/s,  131.6933 GB/s
+SpMV_X:    0.2002 ms, 212.1277 GFlop/s,  666.8676 GB/s,  880.3383 GB/s
+SpMV_X2:   0.1988 ms, 213.6098 GFlop/s,  666.8676 GB/s,  880.3383 GB/s
+
+
+============================================================
+Running DASP fp16 on 5120x13824 at density 50%
+Matrix: test/matrices/5120x13824_d50.mtx
+============================================================
+
+===test/matrices/5120x13824_d50.mtx===
+
+cusparse:  4.2226 ms,  16.7618 Gflop/s,   50.2994 GB/s,   67.0547 GB/s
+SpMV_X:    0.3249 ms, 217.8375 GFlop/s,  672.5211 GB/s,  892.2188 GB/s
+SpMV_X2:   0.3220 ms, 219.7836 GFlop/s,  672.5211 GB/s,  892.2188 GB/s
+
+
+============================================================
+Running DASP fp16 on 5120x13824 at density 70%
+Matrix: test/matrices/5120x13824_d70.mtx
+============================================================
+
+===test/matrices/5120x13824_d70.mtx===
+
+cusparse:  8.2384 ms,  12.0278 Gflop/s,   36.0906 GB/s,   48.1151 GB/s
+SpMV_X:    0.4490 ms, 220.6747 GFlop/s,  673.7773 GB/s,  895.8011 GB/s
+SpMV_X2:   0.4462 ms, 222.0857 GFlop/s,  673.7773 GB/s,  895.8011 GB/s
+
+
+============================================================
+Running DASP fp16 on 7168x7168 at density 30%
+Matrix: /gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x7168_d30.mtx
+============================================================
+
+===/gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x7168_d30.mtx===
+
+cusparse:  0.3982 ms,  77.4129 Gflop/s,  232.3827 GB/s,  309.7596 GB/s
+SpMV_X:    0.1511 ms, 204.0126 GFlop/s,  660.8801 GB/s,  866.1330 GB/s
+SpMV_X2:   0.1501 ms, 205.3484 GFlop/s,  660.8801 GB/s,  866.1330 GB/s
+
+
+============================================================
+Running DASP fp16 on 7168x7168 at density 50%
+Matrix: /gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x7168_d50.mtx
+============================================================
+
+===/gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x7168_d50.mtx===
+
+cusparse:  1.0793 ms,  47.6047 Gflop/s,  142.8672 GB/s,  190.4586 GB/s
+SpMV_X:    0.2414 ms, 212.8471 GFlop/s,  667.7828 GB/s,  882.3428 GB/s
+SpMV_X2:   0.2394 ms, 214.6199 GFlop/s,  667.7828 GB/s,  882.3428 GB/s
+
+
+============================================================
+Running DASP fp16 on 7168x7168 at density 70%
+Matrix: /gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x7168_d70.mtx
+============================================================
+
+===/gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x7168_d70.mtx===
+
+cusparse:  2.8559 ms,  25.1876 Gflop/s,   75.5829 GB/s,  100.7655 GB/s
+SpMV_X:    0.3310 ms, 217.3234 GFlop/s,  672.0678 GB/s,  891.1809 GB/s
+SpMV_X2:   0.3282 ms, 219.1568 GFlop/s,  672.0678 GB/s,  891.1809 GB/s
+
+
+============================================================
+Running DASP fp16 on 7168x28672 at density 30%
+Matrix: /gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x28672_d30.mtx
+============================================================
+
+===/gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x28672_d30.mtx===
+
+cusparse:  9.0849 ms,  13.5734 Gflop/s,   40.7311 GB/s,   54.2982 GB/s
+SpMV_X:    0.5609 ms, 219.8516 GFlop/s,  674.8165 GB/s,  896.2214 GB/s
+SpMV_X2:   0.5567 ms, 221.5079 GFlop/s,  674.8165 GB/s,  896.2214 GB/s
+
+
+============================================================
+Running DASP fp16 on 7168x28672 at density 50%
+Matrix: /gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x28672_d50.mtx
+============================================================
+
+===/gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x28672_d50.mtx===
+
+cusparse: 25.2906 ms,   8.1264 Gflop/s,   24.3830 GB/s,   32.5071 GB/s
+SpMV_X:    0.9273 ms, 221.6365 GFlop/s,  677.1872 GB/s,  900.5448 GB/s
+SpMV_X2:   0.9199 ms, 223.4200 GFlop/s,  677.1872 GB/s,  900.5448 GB/s
+
+
+============================================================
+Running DASP fp16 on 7168x28672 at density 70%
+Matrix: /gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x28672_d70.mtx
+============================================================
+
+===/gpfs/gibbs/pi/panda/ry263/dasp_matrices/7168x28672_d70.mtx===
+
+cusparse: 48.8223 ms,   5.8934 Gflop/s,   17.6822 GB/s,   23.5745 GB/s
+SpMV_X:    1.2919 ms, 222.7150 GFlop/s,  678.7946 GB/s,  903.1876 GB/s
+SpMV_X2:   1.2820 ms, 224.4378 GFlop/s,  678.7946 GB/s,  903.1876 GB/s
+

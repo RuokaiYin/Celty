@@ -1,0 +1,182 @@
+Kernel id: 7
+M_rows, M_cols, density: 7168 7168 0.7
+Warmup reps / timing reps: 100/1000
+Seed: 47
+Flush: 1
+
+Cache size: 6291456
+Half
+Max diff: 0.00792503
+
+Kernel id: 7
+Bits per value: 16
+Last time (us): 155.648
+Max  time (us): 159.744
+Min  time (us): 152.576
+Mean time (us): 156.231
+Mean kernel launch time (us): 1.82
+Dense Bandwidth best (Gbps): 673.691
+Dense Bandwidth mean (Gbps): 657.931
+Dense flops best (Gflops): 673.503
+Dense flops mean (Gflops): 657.748
+Sparse flops best (Gflops): 471.452
+Sparse flops mean (Gflops): 460.423
+Effective density: 0.875279 0.7
+
+Final results:	16	7168	7168	7	0.7	156	657	460
+Kernel id: 7
+M_rows, M_cols, density: 7168 7168 0.5
+Warmup reps / timing reps: 100/1000
+Seed: 47
+Flush: 1
+
+Cache size: 6291456
+Half
+Max diff: 0.00804901
+
+Kernel id: 7
+Bits per value: 16
+Last time (us): 116.736
+Max  time (us): 119.808
+Min  time (us): 114.688
+Mean time (us): 116.891
+Mean kernel launch time (us): 1.72
+Dense Bandwidth best (Gbps): 896.25
+Dense Bandwidth mean (Gbps): 879.36
+Dense flops best (Gflops): 896
+Dense flops mean (Gflops): 879.115
+Sparse flops best (Gflops): 448
+Sparse flops mean (Gflops): 439.558
+Effective density: 0.625288 0.5
+
+Final results:	16	7168	7168	7	0.5	116	879	439
+Kernel id: 7
+M_rows, M_cols, density: 7168 7168 0.3
+Warmup reps / timing reps: 100/1000
+Seed: 47
+Flush: 1
+
+Cache size: 6291456
+Half
+Max diff: 0.00602531
+
+Kernel id: 7
+Bits per value: 16
+Last time (us): 76.8
+Max  time (us): 80.672
+Min  time (us): 75.776
+Mean time (us): 77.4084
+Mean kernel launch time (us): 1.9
+Dense Bandwidth best (Gbps): 1356.49
+Dense Bandwidth mean (Gbps): 1327.88
+Dense flops best (Gflops): 1356.11
+Dense flops mean (Gflops): 1327.51
+Sparse flops best (Gflops): 406.832
+Sparse flops mean (Gflops): 398.253
+Effective density: 0.376534 0.3
+
+Final results:	16	7168	7168	7	0.3	77	1327	398
+Kernel id: 7
+M_rows, M_cols, density: 7168 28672 0.7
+Warmup reps / timing reps: 100/1000
+Seed: 47
+Flush: 1
+
+Cache size: 6291456
+Half
+Max diff: 0.0203972
+
+Kernel id: 7
+Bits per value: 16
+Last time (us): 573.44
+Max  time (us): 589.632
+Min  time (us): 571.392
+Mean time (us): 577.745
+Mean kernel launch time (us): 1.61
+Dense Bandwidth best (Gbps): 719.495
+Dense Bandwidth mean (Gbps): 711.582
+Dense flops best (Gflops): 719.369
+Dense flops mean (Gflops): 711.458
+Sparse flops best (Gflops): 503.558
+Sparse flops mean (Gflops): 498.021
+Effective density: 0.875279 0.7
+
+Final results:	16	7168	28672	7	0.7	577	711	498
+Kernel id: 7
+M_rows, M_cols, density: 7168 28672 0.5
+Warmup reps / timing reps: 100/1000
+Seed: 47
+Flush: 1
+
+Cache size: 6291456
+Half
+Max diff: 0.0184631
+
+Kernel id: 7
+Bits per value: 16
+Last time (us): 417.728
+Max  time (us): 427.008
+Min  time (us): 413.696
+Mean time (us): 419.631
+Mean kernel launch time (us): 1.75
+Dense Bandwidth best (Gbps): 993.758
+Dense Bandwidth mean (Gbps): 979.703
+Dense flops best (Gflops): 993.584
+Dense flops mean (Gflops): 979.532
+Sparse flops best (Gflops): 496.792
+Sparse flops mean (Gflops): 489.766
+Effective density: 0.625289 0.5
+
+Final results:	16	7168	28672	7	0.5	419	979	489
+Kernel id: 7
+M_rows, M_cols, density: 7168 28672 0.3
+Warmup reps / timing reps: 100/1000
+Seed: 47
+Flush: 1
+
+Cache size: 6291456
+Half
+Max diff: 0.0124741
+
+Kernel id: 7
+Bits per value: 16
+Last time (us): 262.048
+Max  time (us): 266.24
+Min  time (us): 259.072
+Mean time (us): 261.956
+Mean kernel launch time (us): 1.67
+Dense Bandwidth best (Gbps): 1586.87
+Dense Bandwidth mean (Gbps): 1569.4
+Dense flops best (Gflops): 1586.59
+Dense flops mean (Gflops): 1569.12
+Sparse flops best (Gflops): 475.978
+Sparse flops mean (Gflops): 470.737
+Effective density: 0.376542 0.3
+
+Final results:	16	7168	28672	7	0.3	261	1569	470
+Kernel id: 7
+M_rows, M_cols, density: 9216 9216 0.3
+Warmup reps / timing reps: 100/1000
+Seed: 47
+Flush: 1
+
+Cache size: 6291456
+Half
+Max diff: 0.00707245
+
+Kernel id: 7
+Bits per value: 16
+Last time (us): 117.76
+Max  time (us): 121.856
+Min  time (us): 114.688
+Mean time (us): 117.445
+Mean kernel launch time (us): 1.67
+Dense Bandwidth best (Gbps): 1481.46
+Dense Bandwidth mean (Gbps): 1446.69
+Dense flops best (Gflops): 1481.14
+Dense flops mean (Gflops): 1446.38
+Sparse flops best (Gflops): 444.343
+Sparse flops mean (Gflops): 433.913
+Effective density: 0.376467 0.3
+
+Final results:	16	9216	9216	7	0.3	117	1446	433
